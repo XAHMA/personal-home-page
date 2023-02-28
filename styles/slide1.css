@@ -1,0 +1,130 @@
+.title {
+    font-size: 100px;
+    color: #fff;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
+    font-family: Badora;
+    text-shadow: 0 0 5px yellow, 0 -5px 5px red;
+}
+
+.title-cap {
+    font-size: 20px;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Poppins;
+    text-shadow: 0 0 5px yellow, 0 -5px 5px red;
+}
+
+.box1 {
+    height:300px;
+    background-image: url("images/mate.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box1-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card1 {
+    width: 430px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    border-radius: 12px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    box-shadow: 0px 0px 20px red;
+    overflow: hidden;
+    background-color: black;
+}
+
+.text1 {
+    color: #fff;
+    text-shadow: 0px 0px 5px yellow, 0px -5px 5px red;
+    text-align: center;
+    margin: 0;
+}
+
+.logo1 {
+    width: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (max-width: 500px) {
+    .title {
+        font-size: 60px;
+    }
+
+    .title-cap {
+        font-size: 10px;
+    }
+
+    .box1 {
+        height: 150px;
+    }
+
+    .card1 {
+        width: 250px;
+        grid-template-columns: 1fr;
+        padding: 6px 12px;
+    }
+    
+    .text1 {
+        font-size: 14px;
+    }
+
+    .logo1 {
+        display: none;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 620px) {
+    .title {
+        font-size: 80px;
+    }
+
+    .title-cap {
+        font-size: 15px;
+    }
+
+    .box1 {
+        height: 187px;
+    }
+
+    .card1 {
+        width: 330px;
+        grid-template-columns: 80px 1fr;
+    }
+
+    .text1 {
+        font-size: 14px;
+    }
+    
+    .logo1 {
+        width: 80px;
+    }
+}
+
+@media (min-width: 621px) and (max-width: 900px) {
+
+    .box1 {
+        height: 225px;
+    }
+
+    .card1 {
+        width: 420px;
+        grid-template-columns: 100px 1fr;
+    }
+    
+    .logo1 {
+        width: 100px;
+    }
+}
