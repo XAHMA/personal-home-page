@@ -43,7 +43,7 @@ h1 {
     src: url("fonts/Poppins.ttf");
 }
 
-@media only screen and (max-device-width: 620px) {
+@media only screen and (max-device-width: 999px) {
     .parallax1,
     .parallax2,
     .parallax3 {
