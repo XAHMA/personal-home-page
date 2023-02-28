@@ -68,10 +68,7 @@
     width: 150px;
 }
 
-marquee {
-    position: absolute;
-    bottom: 0;
-}
+
 
 @media (max-width: 500px) {
     .box2-wrap {
