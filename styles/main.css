@@ -4,6 +4,10 @@ body, html {
     font-family: Poppins, Arial;
 }
 
+figure {
+    margin: 0;
+}
+
 h1 {
     padding-bottom: 10px;
 }
