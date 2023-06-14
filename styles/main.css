@@ -1,0 +1,56 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Poppins, Arial;
+    user-select: none;
+}
+
+figure {
+    margin: 0;
+}
+
+h1 {
+    padding-bottom: 5px;
+}
+
+.parallax1,
+.parallax2,
+.parallax3 {
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.parallax1 {
+    background-image: url("images/unohana1.jpg");
+    position: relative;
+}
+
+.parallax2 {
+    background-image: url("images/unohana2.jpg");
+    position: relative;
+}
+
+.parallax3 {
+    background-image: url("images/unohana3.jpg");
+    position: relative;
+}
+
+@font-face {
+    font-family: badora;
+    src: url("fonts/badora.ttf");
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url("fonts/Poppins.ttf");
+}
+
+@media only screen and (max-device-width: 999px) {
+    .parallax1,
+    .parallax2,
+    .parallax3 {
+        background-attachment: scroll;
+    }
+}
