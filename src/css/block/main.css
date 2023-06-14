@@ -1,7 +1,7 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: Poppins, Arial;
+    font-family: ReggaeOne, Arial;
     user-select: none;
 }
 
@@ -23,34 +23,50 @@ h1 {
 }
 
 .parallax1 {
-    background-image: url("images/unohana1.jpg");
+    background-image: url("/RELOAD/src/img/unohana1.jpg");
     position: relative;
 }
 
 .parallax2 {
-    background-image: url("images/unohana2.jpg");
+    background-image: url("/RELOAD/src/img/unohana2.jpg");
     position: relative;
 }
 
 .parallax3 {
-    background-image: url("images/unohana3.jpg");
+    background-image: url("/RELOAD/src/img/unohana3.jpg");
     position: relative;
 }
 
 @font-face {
     font-family: badora;
-    src: url("fonts/badora.ttf");
+    src: url("/RELOAD/src/font/badora.ttf");
 }
 
 @font-face {
     font-family: Poppins;
-    src: url("fonts/Poppins.ttf");
+    src: url("/RELOAD/src/font/Poppins.ttf");
+}
+
+@font-face {
+    font-family: ReggaeOne;
+    src: url("/RELOAD/src/font/ReggaeOne.ttf");
 }
 
 @media only screen and (max-device-width: 999px) {
+    /*
     .parallax1,
     .parallax2,
-    .parallax3 {
+    .parallax3,
+    .parallax4 {
         background-attachment: scroll;
     }
+    */
 }
+
+.background-video {
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }

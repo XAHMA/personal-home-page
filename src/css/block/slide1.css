@@ -13,25 +13,25 @@
     color: #fff;
     margin: 0 auto;
     text-align: center;
-    font-family: Poppins;
+    font-family: ReggaeOne;
     text-shadow: 0 0 5px yellow, 0 -5px 5px red;
 }
 
-.box1 {
+.novels-line {
     height:300px;
-    background-image: url("images/mate.jpg");
+    background-image: url("/RELOAD/src/img/mate.jpg");
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.box1-wrap {
+.novels-wrap {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.card1 {
+.novels-card {
     width: 430px;
     margin: 0 auto;
     display: grid;
@@ -40,19 +40,19 @@
     border-radius: 12px;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
-    box-shadow: 0px 0px 20px red;
+    box-shadow: 0px 0px 20px rgb(225, 40, 40);
     overflow: hidden;
     background-color: black;
 }
 
-.text1 {
+.novels-text {
     color: #fff;
     text-shadow: 0px 0px 5px yellow, 0px -5px 5px red;
     text-align: center;
     margin: 0;
 }
 
-.logo1 {
+.novels-logo {
     width: 150px;
     object-fit: cover;
     object-position: center;
@@ -67,22 +67,25 @@
         font-size: 10px;
     }
 
-    .box1 {
+    .novels-line {
         height: 150px;
     }
 
-    .card1 {
+    .novels-card {
         width: 250px;
-        grid-template-columns: 1fr;
-        padding: 6px 12px;
+        grid-template-columns: 50px 1fr;
     }
     
-    .text1 {
-        font-size: 14px;
+    .novels-text-wrap {
+        padding: 5px;
     }
 
-    .logo1 {
-        display: none;
+    .novels-text {
+        font-size: 12px;
+    }
+
+    .novels-logo {
+        width: 66px;
     }
 }
 
@@ -95,36 +98,40 @@
         font-size: 15px;
     }
 
-    .box1 {
+    .novels-line {
         height: 187px;
     }
 
-    .card1 {
+    .novels-card {
         width: 330px;
         grid-template-columns: 80px 1fr;
     }
 
-    .text1 {
+    .novels-text-wrap {
+        padding: 5px;
+    }
+
+    .novels-text {
         font-size: 14px;
     }
     
-    .logo1 {
+    .novels-logo {
         width: 80px;
     }
 }
 
 @media (min-width: 621px) and (max-width: 900px) {
 
-    .box1 {
+    .novels-line {
         height: 225px;
     }
 
-    .card1 {
+    .novels-card {
         width: 420px;
         grid-template-columns: 100px 1fr;
     }
     
-    .logo1 {
+    .novels-logo {
         width: 100px;
     }
 }
