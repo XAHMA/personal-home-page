@@ -23,33 +23,33 @@ h1 {
 }
 
 .parallax1 {
-    background-image: url("/PROJECT/personal-home-page/src/img/unohana1.jpg");
+    background-image: url("/personal-home-page/src/img/unohana1.jpg");
     position: relative;
 }
 
 .parallax2 {
-    background-image: url("/PROJECT/personal-home-page/src/img/unohana2.jpg");
+    background-image: url("/personal-home-page/src/img/unohana2.jpg");
     position: relative;
 }
 
 .parallax3 {
-    background-image: url("/PROJECT/personal-home-page/src/img/unohana3.jpg");
+    background-image: url("/personal-home-page/src/img/unohana3.jpg");
     position: relative;
 }
 
 @font-face {
     font-family: badora;
-    src: url("/PROJECT/personal-home-page/src/font/badora.ttf");
+    src: url("/personal-home-page/src/font/badora.ttf");
 }
 
 @font-face {
     font-family: Poppins;
-    src: url("/PROJECT/personal-home-page/src/font/Poppins.ttf");
+    src: url("/personal-home-page/src/font/Poppins.ttf");
 }
 
 @font-face {
     font-family: ReggaeOne;
-    src: url("/PROJECT/personal-home-page/src/font/ReggaeOne.ttf");
+    src: url("/personal-home-page/src/font/ReggaeOne.ttf");
 }
 
 @media only screen and (max-device-width: 999px) {
