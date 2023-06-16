@@ -30,13 +30,10 @@
   object-fit: cover;
 }
 
-@media only screen and (max-device-width: 999px) {
-  /*
+@media only screen and (max-device-width: 1024px) {
   .parallax1,
   .parallax2,
-  .parallax3,
-  .parallax4 {
+  .parallax3 {
     background-attachment: scroll;
   }
-  */
 }
