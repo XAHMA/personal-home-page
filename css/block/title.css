@@ -16,3 +16,13 @@
   font-family: ReggaeOne;
   text-shadow: 0 0 5px yellow, 0 -5px 5px red;
 }
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 60px;
+  }
+
+  .title-cap {
+    font-size: 10px;
+  }
+}

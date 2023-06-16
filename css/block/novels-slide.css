@@ -40,14 +40,6 @@
 }
 
 @media (max-width: 500px) {
-  .title {
-    font-size: 60px;
-  }
-
-  .title-cap {
-    font-size: 10px;
-  }
-
   .novels-line {
     height: 150px;
   }
