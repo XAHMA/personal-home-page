@@ -8,17 +8,17 @@
 }
 
 .parallax1 {
-  background-image: url("/RELOAD/img/unohana1.jpg");
+  background-image: url("../img/unohana1.jpg");
   position: relative;
 }
 
 .parallax2 {
-  background-image: url("/RELOAD/img/unohana2.jpg");
+  background-image: url("../img/unohana2.jpg");
   position: relative;
 }
 
 .parallax3 {
-  background-image: url("/RELOAD/img/unohana3.jpg");
+  background-image: url("../img/unohana3.jpg");
   position: relative;
 }
 
