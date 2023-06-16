@@ -1,0 +1,77 @@
+.konosuba-slideshow-container {
+  max-width: 200px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.konosuba-slideshow img {
+  width: 200px
+}
+
+.caption {
+  color: black;
+  font-size: 16px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  text-shadow: 0 0 1px black;
+}
+
+.numbers {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  margin: 0;
+  text-shadow: 0 0 1px black;
+}
+
+@media (max-width: 500px) {
+  .konosuba-slideshow-container {
+    max-width: 100px;
+  }
+
+  .konosuba-slideshow img {
+    width: 100px
+  }
+
+  .caption {
+    font-size: 10px;
+  }
+
+  .numbers {
+    font-size: 6px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 620px) {
+  .konosuba-slideshow-container {
+    max-width: 125px;
+  }
+
+  .konosuba-slideshow img {
+    width: 125px
+  }
+
+  .caption {
+    font-size: 13px;
+  }
+
+  .numbers {
+    font-size: 8px;
+  }
+}
+
+@media (min-width: 621px) and (max-width: 900px) {
+  .konosuba-slideshow-container {
+    max-width: 150px;
+  }
+
+  .konosuba-slideshow img {
+    width: 150px
+  }
+}

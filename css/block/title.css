@@ -1,0 +1,18 @@
+.title {
+  font-size: 100px;
+  color: #fff;
+  margin: 0 auto;
+  padding-top: 10px;
+  text-align: center;
+  font-family: Badora;
+  text-shadow: 0 0 5px yellow, 0 -5px 5px red;
+}
+
+.title-cap {
+  font-size: 20px;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  font-family: ReggaeOne;
+  text-shadow: 0 0 5px yellow, 0 -5px 5px red;
+}

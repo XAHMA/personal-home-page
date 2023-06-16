@@ -1,0 +1,117 @@
+.novels-line {
+  height:300px;
+  background-image: url("/RELOAD/img/mate.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.novels-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.novels-card {
+  width: 430px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  align-items: center;
+  border-radius: 12px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  box-shadow: 0px 0px 20px rgb(225, 40, 40);
+  overflow: hidden;
+  background-color: black;
+}
+
+.novels-text {
+  color: #fff;
+  text-shadow: 0px 0px 5px yellow, 0px -5px 5px red;
+  text-align: center;
+  margin: 0;
+}
+
+.novels-logo {
+  width: 150px;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 60px;
+  }
+
+  .title-cap {
+    font-size: 10px;
+  }
+
+  .novels-line {
+    height: 150px;
+  }
+
+  .novels-card {
+    width: 250px;
+    grid-template-columns: 50px 1fr;
+  }
+
+  .novels-text-wrap {
+    padding: 5px;
+  }
+
+  .novels-text {
+    font-size: 12px;
+  }
+
+  .novels-logo {
+    width: 66px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 620px) {
+  .title {
+    font-size: 80px;
+  }
+
+  .title-cap {
+    font-size: 15px;
+  }
+
+  .novels-line {
+    height: 187px;
+  }
+
+  .novels-card {
+    width: 330px;
+    grid-template-columns: 80px 1fr;
+  }
+
+  .novels-text-wrap {
+    padding: 5px;
+  }
+
+  .novels-text {
+    font-size: 14px;
+  }
+
+  .novels-logo {
+    width: 80px;
+  }
+}
+
+@media (min-width: 621px) and (max-width: 900px) {
+  .novels-line {
+    height: 225px;
+  }
+
+  .novels-card {
+    width: 420px;
+    grid-template-columns: 100px 1fr;
+  }
+
+  .novels-logo {
+    width: 100px;
+  }
+}

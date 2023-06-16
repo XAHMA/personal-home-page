@@ -1,0 +1,117 @@
+.anime-line {
+  height:260px;
+  background-image: url("/RELOAD/img/mate.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.anime-wrap {
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+}
+
+.anime-card {
+  width: 420px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  align-items: center;
+  border-radius: 12px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  box-shadow: 0px 0px 20px white;
+  overflow: hidden;
+  background-color: black;
+  z-index: 1;
+}
+
+.anime-text {
+  color: #fff;
+  text-shadow: 0px 0px 5px yellow, 0px -5px 5px red;
+  text-align: center;
+  margin: 0;
+}
+
+.anime-logo {
+  width: 100px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.aqua-gif {
+  margin: 0;
+  display: flex;
+  position: absolute;
+  bottom: 0%;
+  z-index: 100;
+}
+
+.aqua {
+  width: 200px;
+}
+
+.sasha-gif {
+  margin: 0;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  z-index: 100;
+}
+
+.sasha {
+  width: 200px;
+}
+
+.picachu {
+  width: 150px;
+}
+
+marquee {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+@media (max-width: 500px) {
+  
+  .anime-line {
+    height: 200px;
+  }
+  
+  .anime-wrap {
+    padding-top: 50px;
+  }
+
+  .anime-card {
+    width: 350px;
+    grid-template-columns: 80px 1fr;
+  }
+
+  .anime-text {
+    font-size: 14px;
+  }
+
+  .anime-logo {
+    width: 80px;
+  }
+
+  marquee {
+    z-index: 1000;
+  }
+
+  .picachu {
+    width: 100px;
+  }
+
+  .aqua {
+    width: 150px;
+  }
+
+  .sasha {
+    width: 150px;
+  }
+}

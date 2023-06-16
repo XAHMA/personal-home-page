@@ -1,0 +1,42 @@
+.parallax1,
+.parallax2,
+.parallax3 {
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.parallax1 {
+  background-image: url("/RELOAD/img/unohana1.jpg");
+  position: relative;
+}
+
+.parallax2 {
+  background-image: url("/RELOAD/img/unohana2.jpg");
+  position: relative;
+}
+
+.parallax3 {
+  background-image: url("/RELOAD/img/unohana3.jpg");
+  position: relative;
+}
+
+.background-video {
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media only screen and (max-device-width: 999px) {
+  /*
+  .parallax1,
+  .parallax2,
+  .parallax3,
+  .parallax4 {
+    background-attachment: scroll;
+  }
+  */
+}
